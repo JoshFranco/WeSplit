@@ -1,0 +1,2 @@
+# WeSplit
+Practicing SwiftU
