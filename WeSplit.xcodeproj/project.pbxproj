@@ -60,6 +60,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA8236462464926900FDCF3A /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DADB5B492464914500630F31 /* LaunchScreen.storyboard */,
+				DADB5B422464914300630F31 /* ContentView.swift */,
+			);
+			path = ViewLayer;
+			sourceTree = "<group>";
+		};
+		DA8236472464927C00FDCF3A /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DADB5B3F2464914300630F31 /* WeSplit.xcdatamodeld */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		DA8236482464928800FDCF3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DADB5B462464914500630F31 /* Preview Content */,
+				DADB5B442464914500630F31 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DADB5B2F2464914300630F31 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +107,12 @@
 		DADB5B3A2464914300630F31 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				DA8236482464928800FDCF3A /* Resources */,
+				DA8236472464927C00FDCF3A /* DataLayer */,
+				DA8236462464926900FDCF3A /* ViewLayer */,
 				DADB5B3B2464914300630F31 /* AppDelegate.swift */,
 				DADB5B3D2464914300630F31 /* SceneDelegate.swift */,
-				DADB5B422464914300630F31 /* ContentView.swift */,
-				DADB5B442464914500630F31 /* Assets.xcassets */,
-				DADB5B492464914500630F31 /* LaunchScreen.storyboard */,
 				DADB5B4C2464914500630F31 /* Info.plist */,
-				DADB5B3F2464914300630F31 /* WeSplit.xcdatamodeld */,
-				DADB5B462464914500630F31 /* Preview Content */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
